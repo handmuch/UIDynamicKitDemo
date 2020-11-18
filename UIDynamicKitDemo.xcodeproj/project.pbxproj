@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72197112563E95200FB3411 /* imessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72197102563E95200FB3411 /* imessageTableViewController.m */; };
+		D721971A2563E98900FB3411 /* DynamicBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72197192563E98900FB3411 /* DynamicBaseViewController.m */; };
 		D7371F4E2522E9B800469CBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7371F4D2522E9B800469CBC /* AppDelegate.m */; };
 		D7371F542522E9B800469CBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7371F532522E9B800469CBC /* ViewController.m */; };
 		D7371F572522E9B800469CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7371F552522E9B800469CBC /* Main.storyboard */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D721970F2563E95200FB3411 /* imessageTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imessageTableViewController.h; sourceTree = "<group>"; };
+		D72197102563E95200FB3411 /* imessageTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imessageTableViewController.m; sourceTree = "<group>"; };
+		D72197182563E98900FB3411 /* DynamicBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicBaseViewController.h; sourceTree = "<group>"; };
+		D72197192563E98900FB3411 /* DynamicBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicBaseViewController.m; sourceTree = "<group>"; };
 		D7371F492522E9B800469CBC /* UIDynamicKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDynamicKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7371F4C2522E9B800469CBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7371F4D2522E9B800469CBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D721970E2563E90500FB3411 /* imessageTable */ = {
+			isa = PBXGroup;
+			children = (
+				D721970F2563E95200FB3411 /* imessageTableViewController.h */,
+				D72197102563E95200FB3411 /* imessageTableViewController.m */,
+			);
+			path = imessageTable;
+			sourceTree = "<group>";
+		};
 		D7371F402522E9B800469CBC = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +129,9 @@
 				D7371FFC252314F800469CBC /* extension */,
 				D7371FFE2523151F00469CBC /* UIColor+extension.h */,
 				D7371FFD2523151F00469CBC /* UIColor+extension.m */,
+				D72197182563E98900FB3411 /* DynamicBaseViewController.h */,
+				D72197192563E98900FB3411 /* DynamicBaseViewController.m */,
+				D721970E2563E90500FB3411 /* imessageTable */,
 				D7371F842522E9CD00469CBC /* ballsPool */,
 				D7371F552522E9B800469CBC /* Main.storyboard */,
 				D7371F582522E9BC00469CBC /* Assets.xcassets */,
@@ -290,8 +308,10 @@
 				D7371FFF2523151F00469CBC /* UIColor+extension.m in Sources */,
 				D7371F542522E9B800469CBC /* ViewController.m in Sources */,
 				D7371F4E2522E9B800469CBC /* AppDelegate.m in Sources */,
+				D72197112563E95200FB3411 /* imessageTableViewController.m in Sources */,
 				D7371F932522FF2100469CBC /* BallsPoolViewController.m in Sources */,
 				D7371F5F2522E9BD00469CBC /* main.m in Sources */,
+				D721971A2563E98900FB3411 /* DynamicBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

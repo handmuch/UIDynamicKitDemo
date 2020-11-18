@@ -5,11 +5,10 @@
 //  Created by 郭建华 on 2020/9/29.
 //
 
-#import <UIKit/UIKit.h>
-
+#import "DynamicBaseViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BallsPoolViewController : UIViewController
+@interface BallsPoolViewController : DynamicBaseViewController
 
 @end
 
