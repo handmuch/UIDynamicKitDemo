@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"BallsPool";
+    
     [self initDynamicBehaviors];
     [self setupUI];
     [self setupMotionManager];

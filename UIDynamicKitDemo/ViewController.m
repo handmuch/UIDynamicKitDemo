@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "BallsPoolViewController.h"
+#import "imessageTableViewController.h"
 
 static NSString *kDynamicKitDemoCellIndentifier = @"kDynamicKitDemoCellIndentifier";
 
@@ -24,7 +25,7 @@ static NSString *kDynamicKitDemoCellIndentifier = @"kDynamicKitDemoCellIndentifi
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"UIDynamicKitDemo";
-    self.demoTitleList = @[@"ballsPool"];
+    self.demoTitleList = @[@"ballsPool", @"imessage"];
     
     [self setupUI];
 }
@@ -60,6 +61,10 @@ static NSString *kDynamicKitDemoCellIndentifier = @"kDynamicKitDemoCellIndentifi
     if (indexPath.row == 0) {
         BallsPoolViewController *ballsPoolViewController = [[BallsPoolViewController alloc]init];
         [self.navigationController pushViewController:ballsPoolViewController animated:YES];
+    }
+    if (indexPath.row == 1) {
+        imessageTableViewController *imessageViewController = [[imessageTableViewController alloc] init];
+        [self.navigationController pushViewController:imessageViewController animated:YES];
     }
 }
 
