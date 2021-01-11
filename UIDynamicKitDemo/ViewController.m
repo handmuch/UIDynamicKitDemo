@@ -8,6 +8,8 @@
 #import "ViewController.h"
 #import "BallsPoolViewController.h"
 #import "imessageTableViewController.h"
+#import "DynamicPlaceholderViewController.h"
+#import "UIImageView+switchMethod.h"
 
 static NSString *kDynamicKitDemoCellIndentifier = @"kDynamicKitDemoCellIndentifier";
 
@@ -25,7 +27,7 @@ static NSString *kDynamicKitDemoCellIndentifier = @"kDynamicKitDemoCellIndentifi
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"UIDynamicKitDemo";
-    self.demoTitleList = @[@"ballsPool", @"imessage"];
+    self.demoTitleList = @[@"ballsPool", @"imessage", @"dynamicPlaceholder"];
     
     [self setupUI];
 }
@@ -65,6 +67,10 @@ static NSString *kDynamicKitDemoCellIndentifier = @"kDynamicKitDemoCellIndentifi
     if (indexPath.row == 1) {
         imessageTableViewController *imessageViewController = [[imessageTableViewController alloc] init];
         [self.navigationController pushViewController:imessageViewController animated:YES];
+    }
+    if (indexPath.row == 2) {
+        DynamicPlaceholderViewController *dynamicPlaceholder = [[DynamicPlaceholderViewController alloc] init];
+        [self.navigationController pushViewController:dynamicPlaceholder animated:YES];
     }
 }
 

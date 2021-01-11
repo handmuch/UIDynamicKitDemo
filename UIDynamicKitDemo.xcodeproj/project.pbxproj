@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D706748825A8109500DB8DF3 /* DynamicPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D706748725A8109500DB8DF3 /* DynamicPlaceholderViewController.m */; };
+		D706748E25A8114E00DB8DF3 /* DynamicPlaceholderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D706748D25A8114E00DB8DF3 /* DynamicPlaceholderCollectionViewCell.m */; };
+		D706749425A8366E00DB8DF3 /* UIImageView+switchMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D706749325A8366E00DB8DF3 /* UIImageView+switchMethod.m */; };
 		D72197112563E95200FB3411 /* imessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72197102563E95200FB3411 /* imessageTableViewController.m */; };
 		D721971A2563E98900FB3411 /* DynamicBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72197192563E98900FB3411 /* DynamicBaseViewController.m */; };
 		D72197202565260D00FB3411 /* imessageCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D721971F2565260D00FB3411 /* imessageCollectionViewLayout.m */; };
@@ -40,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D706748625A8109500DB8DF3 /* DynamicPlaceholderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicPlaceholderViewController.h; sourceTree = "<group>"; };
+		D706748725A8109500DB8DF3 /* DynamicPlaceholderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicPlaceholderViewController.m; sourceTree = "<group>"; };
+		D706748C25A8114E00DB8DF3 /* DynamicPlaceholderCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicPlaceholderCollectionViewCell.h; sourceTree = "<group>"; };
+		D706748D25A8114E00DB8DF3 /* DynamicPlaceholderCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicPlaceholderCollectionViewCell.m; sourceTree = "<group>"; };
+		D706749225A8366E00DB8DF3 /* UIImageView+switchMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+switchMethod.h"; sourceTree = "<group>"; };
+		D706749325A8366E00DB8DF3 /* UIImageView+switchMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+switchMethod.m"; sourceTree = "<group>"; };
 		D721970F2563E95200FB3411 /* imessageTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imessageTableViewController.h; sourceTree = "<group>"; };
 		D72197102563E95200FB3411 /* imessageTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imessageTableViewController.m; sourceTree = "<group>"; };
 		D72197182563E98900FB3411 /* DynamicBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicBaseViewController.h; sourceTree = "<group>"; };
@@ -64,8 +73,8 @@
 		D7371F752522E9BD00469CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7371F912522FF2100469CBC /* BallsPoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallsPoolViewController.h; sourceTree = "<group>"; };
 		D7371F922522FF2100469CBC /* BallsPoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallsPoolViewController.m; sourceTree = "<group>"; };
-		D7371FFD2523151F00469CBC /* UIColor+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+extension.m"; path = "extension/UIColor+extension.m"; sourceTree = "<group>"; };
-		D7371FFE2523151F00469CBC /* UIColor+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+extension.h"; path = "extension/UIColor+extension.h"; sourceTree = "<group>"; };
+		D7371FFD2523151F00469CBC /* UIColor+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+extension.m"; sourceTree = "<group>"; };
+		D7371FFE2523151F00469CBC /* UIColor+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+extension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,10 +141,9 @@
 				D7371F522522E9B800469CBC /* ViewController.h */,
 				D7371F532522E9B800469CBC /* ViewController.m */,
 				D7371FFC252314F800469CBC /* extension */,
-				D7371FFE2523151F00469CBC /* UIColor+extension.h */,
-				D7371FFD2523151F00469CBC /* UIColor+extension.m */,
 				D72197182563E98900FB3411 /* DynamicBaseViewController.h */,
 				D72197192563E98900FB3411 /* DynamicBaseViewController.m */,
+				D75452A525A80F1600878A7C /* dynamicPlaceholder */,
 				D721970E2563E90500FB3411 /* imessageTable */,
 				D7371F842522E9CD00469CBC /* ballsPool */,
 				D7371F552522E9B800469CBC /* Main.storyboard */,
@@ -177,8 +185,23 @@
 		D7371FFC252314F800469CBC /* extension */ = {
 			isa = PBXGroup;
 			children = (
+				D7371FFE2523151F00469CBC /* UIColor+extension.h */,
+				D7371FFD2523151F00469CBC /* UIColor+extension.m */,
+				D706749225A8366E00DB8DF3 /* UIImageView+switchMethod.h */,
+				D706749325A8366E00DB8DF3 /* UIImageView+switchMethod.m */,
 			);
 			path = extension;
+			sourceTree = "<group>";
+		};
+		D75452A525A80F1600878A7C /* dynamicPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				D706748625A8109500DB8DF3 /* DynamicPlaceholderViewController.h */,
+				D706748725A8109500DB8DF3 /* DynamicPlaceholderViewController.m */,
+				D706748C25A8114E00DB8DF3 /* DynamicPlaceholderCollectionViewCell.h */,
+				D706748D25A8114E00DB8DF3 /* DynamicPlaceholderCollectionViewCell.m */,
+			);
+			path = dynamicPlaceholder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,10 +333,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D706749425A8366E00DB8DF3 /* UIImageView+switchMethod.m in Sources */,
 				D7371FFF2523151F00469CBC /* UIColor+extension.m in Sources */,
 				D7371F542522E9B800469CBC /* ViewController.m in Sources */,
 				D7371F4E2522E9B800469CBC /* AppDelegate.m in Sources */,
 				D72197112563E95200FB3411 /* imessageTableViewController.m in Sources */,
+				D706748E25A8114E00DB8DF3 /* DynamicPlaceholderCollectionViewCell.m in Sources */,
+				D706748825A8109500DB8DF3 /* DynamicPlaceholderViewController.m in Sources */,
 				D72197202565260D00FB3411 /* imessageCollectionViewLayout.m in Sources */,
 				D7371F932522FF2100469CBC /* BallsPoolViewController.m in Sources */,
 				D7371F5F2522E9BD00469CBC /* main.m in Sources */,

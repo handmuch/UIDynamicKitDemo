@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *)randomColor;
 
++ (UIColor *)HEX:(NSInteger)hex;
+
 @end
 
 NS_ASSUME_NONNULL_END
